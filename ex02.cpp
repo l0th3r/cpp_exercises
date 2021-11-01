@@ -3,5 +3,5 @@
 
 void log_value(int value)
 {
-    std::cerr << value << std::endl;
+    std::cerr << "DEBUG: " << value << std::endl;
 }
