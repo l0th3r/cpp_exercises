@@ -3,5 +3,12 @@
 
 std::string** hundred_string_pointers()
 {
-    return new std::string*[100];
+    std::string** cont = new std::string*[100];
+
+    for(int i = 0; i < 100; i++)
+    {
+        cont[i] = new std::string();
+    }
+
+    return cont;
 }
