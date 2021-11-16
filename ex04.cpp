@@ -14,7 +14,7 @@ std::string* sequence_as_strings(int start, int end)
     {
         int valeur;
         start > end ? valeur = -(r + -start) : valeur = r + start;
-        str[r++] = valeur;
+        str[r++] = std::to_string(valeur);
     }
 
     return str;

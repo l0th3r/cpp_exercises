@@ -32,7 +32,7 @@ void print_fibonnaci(int first, int last, std::string file)
     f.clear();
 
     // if the file doest content all wanted values, complete the file
-    while(i < last)
+    while(i <= last)
     {
         if(i == 1)
             value = 1;
@@ -53,9 +53,3 @@ void print_fibonnaci(int first, int last, std::string file)
 
     f.close();
 }
-
-/*int main(int argc, char *argv[])
-{
-    print_fibonnaci(0, 15, "fib.txt");
-    return 0;
-}*/
